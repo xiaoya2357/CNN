@@ -1,0 +1,39 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# ---- Jupyter ----
+.ipynb_checkpoints/
+
+# ---- IDE / 编辑器 ----
+.idea/
+.vscode/
+*.swp
+
+# ---- 数据集（体积大，可由脚本重新下载）----
+data/
+
+# ---- 随书源码（第三方参考，不上传）----
+【源代码】*/
+*.zip
+
+# ---- 模型权重与训练产物（体积大，建议重新训练生成）----
+*.pt
+*.pth
+*.pkl
+*.ckpt
+
+# ---- 日志 / 输出图片 ----
+*.log
+logs/
+runs/
+*.out
+
+# ---- 系统文件 ----
+Thumbs.db
+Desktop.ini
+.DS_Store
